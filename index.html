@@ -31,9 +31,6 @@ me: Yuhui Ding
             background-color: #FFFFFF;
             padding:60px;
           }
-          #portrait {
-            border: 3px solid white;
-          }
           #header-text {
             margin-top: 60px;
             margin-left: 220px;
@@ -71,16 +68,21 @@ me: Yuhui Ding
 <body>
     <div id='header'>
         <div class='container'>
-            <div class="col offset-sm-1">
-                <div id='header-text-name'>
-                    {{ page.me }}
+            <div class='row'>
+                <div class="col-sm-2 offset-sm-1">
+                    <img src='assets/images/portrait.jpeg' class='img-fluid'>
                 </div>
-                <div id='header-text-email'>
-                    yuhui.ding (at) connect.ust.hk
-                </div>
-                <div>
-                    <a href="https://github.com/skeletondyh">[GitHub]</a>
-                    <a href="assets/files/cv.pdf">[CV]</a>
+                <div class="col">
+                    <div id='header-text-name'>
+                        {{ page.me }}
+                    </div>
+                    <div id='header-text-email'>
+                        yuhui.ding (at) connect.ust.hk
+                    </div>
+                    <div>
+                        <a href="https://github.com/skeletondyh">[GitHub]</a>
+                        <a href="assets/files/cv.pdf">[CV]</a>
+                    </div>
                 </div>
             </div>
         </div>
