@@ -13,6 +13,10 @@ me: Yuhui Ding
 
     <!-- Custom Styles -->
     <style>
+          h1 {
+            font-size: 36px;
+            font-weight: 500
+          }
           body {
             font-family: 'sans-serif';
             font-size: 18px;
@@ -20,12 +24,10 @@ me: Yuhui Ding
             color: #4F6071;
           }
           #header {
-            background-color: #f4f4f4;
-            /*background-color: #FFFFFF;*/
+            background-color: #FFFFFF;
             display: flex;
             align-items: flex-end;
             padding-top:60px;
-            padding-bottom:60px;
           }
           #footer {
             background-color: #FFFFFF;
@@ -36,7 +38,8 @@ me: Yuhui Ding
             margin-left: 220px;
           }
           #header-text-name {
-            font-size: 40px;
+            font-size: 36px;
+            font-weight: bold
           }
           #header-text-email {
             font-size: 20px;
@@ -77,12 +80,16 @@ me: Yuhui Ding
                         {{ page.me }}
                     </div>
                     <div id='header-text-email'>
-                        yuhui.ding (at) connect.ust.hk
+                        Ph.D. Student<br/>
+                        Department of Computer Science<br/>
+                        ETH Zurich
+                    </div>
+                    <div id='header-text-email'>
+                        <b>Email</b>: firstname.lastname (at) inf.ethz.ch
                     </div>
                     <div>
                         <a href="https://dblp.org/pid/230/3524">[DBLP]</a>
                         <a href="https://github.com/skeletondyh">[GitHub]</a>
-                        <a href="assets/files/cv.pdf">[CV]</a>
                     </div>
                 </div>
             </div>
@@ -96,162 +103,46 @@ me: Yuhui Ding
                 <h1>About Me</h1>
                 <p>
                     My name is {{ page.me }}.
-                    I have recently obtained a Master of Philosophy in Computer Science and Engineering from 
-                    <a href="https://cse.hkust.edu.hk">The Hong Kong University of Science and Technology</a>.
-                    My primary research interest lies in <b>optimization for machine learning</b>.
-                    My research goal is to make machine learning <b>more accessible</b>, <b>more robust</b>, 
-                    and <b>more broadly applied in science and engineering</b>.
-                    I have been working with my supervisor <a href="http://tongzhang-ml.org">Prof. Tong Zhang</a> 
-                    on <b>automated machine learning</b> (neural architecture search, hyper-parameter optimization
-                    and gradient-based bi-level optimization). I'm also a contributor to the open-source AutoML toolkit
-                    <a href="https://github.com/microsoft/nni">NNI</a>.
-                    <br>
-                    I obtained my bachelor's degree in computer science with honors from
-                    <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> in 2019.
+                    I'm a first-year Ph.D. student in the Department of Computer Science at ETH Zurich.
+                    I'm fortunate to be advised by <a href="https://thodrek.github.io/">Prof. Theo Rekatsinas</a>,
+                    and I'm a member of the <a href="https://systems.ethz.ch/">Systems Group</a>.
+                    <br/><br/>
+                    My research goal is to understand the fundamental mechanisms of structured intelligence and
+                    develop resource-efficient systems to support its application. My topics of interest include but
+                    are not limited to: Graph Representation Learning, AutoML, Generative Modeling,
+                    and Stochastic Optimization.
+                    <br/><br/>
+                    Previously, I obtained my MPhil from HKUST, advised by <a href="https://lars-group.github.io/">Prof. Quanming Yao</a>
+                    and <a href="http://tongzhang-ml.org/">Prof. Tong Zhang</a>.
+                    Before that, I obtained my bachelor's degree in computer science from Tsinghua University, where I worked
+                    with <a href="http://keg.cs.tsinghua.edu.cn/jietang/">Prof. Jie Tang</a>.
                 </p>
 
                 <div class='vspace-top'>
-                    <h1>News</h1>
-                </div>
-                
-                <!-- List of news -->
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        November 2021
-                    </div>
-                    <div class="col">
-                        My MPhil thesis has been approved!
-                    </div>
-                </div>
-
-                <div class='row vspace-top-news'>
-                    <div class="col-sm-2 news-date">
-                        May 2021
-                    </div>
-                    <div class="col">
-                        One first-author paper has been accepted by SIGKDD 2021 Research Track!
-                    </div>
-                </div>
-
-                <div class='vspace-top'>
-                    <h1>Publications</h1>
+                    <h1>Selected Publications</h1>
                 </div>
 
                 <!--- List of publications --->
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src="assets/images/kdd21.png" class="img-fluid">
+                <div class="col">
+                    <div class='paper-title'>
+                        DiffMG: Differentiable Meta Graph Search for Heterogeneous Graph Neural Networks
                     </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            DiffMG: Differentiable Meta Graph Search for Heterogeneous Graph Neural Networks
-                        </div>
-                        <div class='paper-desc'>
-                            SIGKDD 2021 (Research Track)
-                        </div>
-                        <div class='paper-authors'>
-                            <b>{{ page.me }}</b>, Quanming Yao, Huan Zhao, Tong Zhang
-                        </div>
-                        <div>
-                            <a href="https://arxiv.org/abs/2010.03250">[Paper]</a>
-                            <a href="https://github.com/AutoML-Research/DiffMG">[Code]</a>
-                        </div>
+                    <div class='paper-desc'>
+                        SIGKDD 2021 (Research Track)
                     </div>
-                </div>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src="assets/images/tkde19.png" class="img-fluid">
+                    <div class='paper-authors'>
+                        <b>{{ page.me }}</b>, Quanming Yao, Huan Zhao, Tong Zhang
                     </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            POLAR++: Active One-shot Personalized Article Recommendation
-                        </div>
-                        <div class='paper-desc'>
-                            TKDE 2019
-                        </div>
-                        <div class='paper-authors'>
-                            Zhengxiao Du, Jie Tang, <b>{{ page.me }}</b>
-                        </div>
-                        <div>
-                            <a href="https://keg.cs.tsinghua.edu.cn/jietang/publications/TKDE20-Du-Tang-Ding-Polar++_One_shot_Article_Recommendation.pdf">[Paper]</a>
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src="assets/images/cikm19.png" class="img-fluid">
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach
-                        </div>
-                        <div class='paper-desc'>
-                            CIKM 2019
-                        </div>
-                        <div class='paper-authors'>
-                            Changjun Fan, Li Zeng, <b>{{ page.me }}</b>, Muhao Chen, Yizhou Sun, Zhong Liu
-                        </div>
-                        <div>
-                            <a href="http://web.cs.ucla.edu/~yzsun/papers/2019_CIKM_Betweenness.pdf">[Paper]</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <video width="100%" autoplay loop muted>
-                            <source src="assets/videos/fie.mp4" type="video/mp4">
-                        </video>
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            DCLab: A Web-based System for Digital Logic Experiment Teaching
-                        </div>
-                        <div class='paper-desc'>
-                            IEEE Frontiers in Education Conference (FIE) 2018
-                        </div>
-                        <div class='paper-authors'>
-                            <b>{{ page.me }}</b>, Shanshan Li, Jinghan Liu, Xiaojun Wu
-                        </div>
-                        *On the left is a demo showing a counter built with 74LS chips.
-                        <div>
-                            <a href="https://arxiv.org/pdf/1811.03010.pdf">[Paper]</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img src="assets/images/pkdd18.png" class="img-fluid">
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            POLAR: Attention-based CNN for One-shot Personalized Article Recommendation
-                        </div>
-                        <div class='paper-desc'>
-                            ECML-PKDD 2018
-                        </div>
-                        <div class='paper-authors'>
-                            Zhengxiao Du, Jie Tang, <b>{{ page.me }}</b>
-                        </div>
-                        <div>
-                            <a href="https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD18-Du-et-al-polar-attention-based.pdf">[Paper]</a>
-                        </div>
+                    <div>
+                        <a href="https://arxiv.org/abs/2010.03250">[Paper]</a>
+                        <a href="https://github.com/AutoML-Research/DiffMG">[Code]</a>
                     </div>
                 </div>
 
                 <div class="vspace-top">
                     <h1>Professional</h1>
                     <p>
-                        I serve as a reviewer for NeurIPS, ICLR
+                        I regularly serve as a reviewer for ICML, NeurIPS, ICLR
                     </p>
                 </div>
 
