@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited that our paper about SSM on graphs has been accepted by ICML 2024! Camera-ready version and code are coming soon!
+Excited that our paper about <strong>SSM on graphs</strong> has been accepted by <strong>ICML 2024</strong>! Camera-ready version and code are coming soon!
