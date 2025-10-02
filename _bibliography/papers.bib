@@ -7,9 +7,9 @@
   title={Scalable Non-Equivariant 3D Molecule Generation via Rotational Alignment},
   abstract={In this work, we relax the equivariance constraints in existing 3D molecule diffusion models. 
             We use an autoencoder to learn rotations that align the 3D orientations of molecules. 
-            Then a non-equivariant diffusion model (e.g., parametrized by a transformer) is trained in 
-            the aligned latent space. Our model significantly improves the scalability and efficiency 
-            compared with equivariant counterparts, without sacrificing sample quality.},
+            Then a non-equivariant diffusion model (e.g., parametrized by a standard transformer) is trained in 
+            the aligned latent space. Our non-equivariant diffusion model offers significantly improved scalability and efficiency 
+            compared with equivariant models, without sacrificing sample quality.},
   author={Ding, Yuhui and Hofmann, Thomas},
   booktitle={the 42nd International Conference on Machine Learning},
   abbr={ICML},
@@ -36,8 +36,8 @@
 
 @inproceedings{diffmg,
   title={DiffMG: Differentiable Meta Graph Search for Heterogeneous Graph Neural Networks},
-  abstract={We propose a neural architecture search method for GNNs on heterogeneous information networks, which learns 
-            task-dependent message-passing patterns that incorporate semantic information. Our search algorithm is differentiable, 
+  abstract={We propose a neural architecture search method for GNNs on heterogeneous information networks, which can learn 
+            task-dependent message-passing patterns that contain semantic information. Our search algorithm is differentiable, 
             making the search cost comparable to training the derived final model once. Our method has good interpretability 
             and is more efficient than attention-based models.},
   author={Ding, Yuhui and Yao, Quanming and Zhao, Huan and Zhang, Tong},
