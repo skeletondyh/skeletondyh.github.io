@@ -5,6 +5,11 @@
 
 @inproceedings{molecule,
   title={Scalable Non-Equivariant 3D Molecule Generation via Rotational Alignment},
+  abstract={In this work, we relax the equivariance constraints in existing 3D molecule diffusion models. 
+            We use an autoencoder to learn rotations that align the 3D orientations of molecules. 
+            Then a non-equivariant diffusion model (e.g., parametrized by a transformer) is trained in 
+            the aligned latent space. Our model significantly improves the scalability and efficiency 
+            compared with equivariant counterparts, without sacrificing sample quality.},
   author={Ding, Yuhui and Hofmann, Thomas},
   booktitle={the 42nd International Conference on Machine Learning},
   abbr={ICML},
@@ -16,6 +21,10 @@
 
 @inproceedings{gred,
   title={Recurrent Distance Filtering for Graph Representation Learning},
+  abstract={We propose a novel architecture that combines state-space models with GNNs to improve the ability 
+            to model long-range dependencies on graphs. Our architecture achieves performance comparable to or 
+            better than SOTA graph transformers, even without positional encoding, and significantly 
+            reduces the computational cost.},
   author={Ding, Yuhui and Orvieto, Antonio and He, Bobby and Hofmann, Thomas},
   booktitle={the 41st International Conference on Machine Learning},
   abbr={ICML},
@@ -27,6 +36,10 @@
 
 @inproceedings{diffmg,
   title={DiffMG: Differentiable Meta Graph Search for Heterogeneous Graph Neural Networks},
+  abstract={We propose a neural architecture search method for GNNs on heterogeneous information networks, which learns 
+            task-dependent message-passing patterns that incorporate semantic information. Our search algorithm is differentiable, 
+            making the search cost comparable to training the derived final model once. Our method has good interpretability 
+            and is more efficient than attention-based models.},
   author={Ding, Yuhui and Yao, Quanming and Zhao, Huan and Zhang, Tong},
   booktitle={the 27th ACM SIGKDD Conference on Knowledge Discovery \& Data Mining},
   abbr={KDD},
