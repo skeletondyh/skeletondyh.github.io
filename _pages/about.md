@@ -25,6 +25,6 @@ My current research focuses on:
 1. Developing architectures and generative models that incorporate symmetries in data;
 2. Improving the training dynamics of neural networks by exploiting symmetries in weight space.
 
-During my Ph.D., I interned with [Prof. Sai Reddy](https://scholar.google.com/citations?user=XVKdvM8AAAAJ)'s group, working on neural scoring functions for antibody–antigen interfaces, and at Microsoft Research Cambridge, where I worked on manifold optimization with [James Hensman](https://scholar.google.com/citations?user=l8dX3ssAAAAJ&hl=en).
+During my Ph.D., I interned at Microsoft Research Cambridge, where I worked with [James Hensman](https://scholar.google.com/citations?user=l8dX3ssAAAAJ&hl=en) on manifold optimization. I also interned with [Prof. Sai Reddy](https://scholar.google.com/citations?user=XVKdvM8AAAAJ)'s group, where I worked on neural scoring functions for antibody–antigen interfaces.
 
 Previously, I obtained my MPhil from HKUST, advised by [Prof. Tong Zhang](https://tongzhang-ml.org) and [Prof. Quanming Yao](https://lars-group.github.io). Before that, I obtained my bachelor's degree in computer science from Tsinghua University, where I worked with [Prof. Jie Tang](https://keg.cs.tsinghua.edu.cn/jietang).
