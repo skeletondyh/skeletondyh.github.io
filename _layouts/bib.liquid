@@ -77,7 +77,9 @@
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
+          {%- if forloop.first == false -%}
+            {%- if forloop.length == 2 and author_array_limit == author_array_size -%}&nbsp;{%- else -%},&nbsp;{%- endif -%}
+          {%- endif -%}
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
@@ -139,9 +141,9 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
+      {% capture entrytype %}<em>In {{entry.booktitle}}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
+      {% capture entrytype %}<em>{{entry.school}}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}

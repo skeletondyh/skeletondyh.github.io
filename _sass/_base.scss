@@ -370,11 +370,21 @@ ul.task-list input[type="checkbox"] {
 
 .social {
   text-align: left;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
 
   .contact-icons {
     font-size: 2.4rem;
+    line-height: 1;
 
     a {
+      margin-right: 0.35rem;
+
+      // academicons render optically smaller than the Font Awesome icons
+      i.ai {
+        font-size: 1.1em;
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;

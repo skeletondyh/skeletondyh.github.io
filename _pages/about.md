@@ -18,7 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a third-year Ph.D. student in the Department of Computer Science at ETH Zurich. I'm fortunate to be advised by [Prof. Thomas Hofmann](https://da.inf.ethz.ch/).
-I'm currently interested in: (1) Understanding the training dynamics of geometric deep learning models; (2) Generative modeling for structured data in biochemistry (e.g., molecules, proteins).
+I'm a fourth-year Ph.D. student in the Department of Computer Science at ETH Zurich. I'm fortunate to be advised by [Prof. Thomas Hofmann](https://da.inf.ethz.ch/). 
+I'm broadly interested in the foundations of deep learning and its applications in science (e.g., drug discovery). 
+
+My current research focuses on: 
+1. Developing architectures and generative models that incorporate symmetries in data;
+2. Improving the training dynamics of neural networks by exploiting symmetries in weight space.
+
+During my Ph.D., I interned with [Prof. Sai Reddy](https://scholar.google.com/citations?user=XVKdvM8AAAAJ)'s group, working on neural scoring functions for antibody–antigen interfaces, and at Microsoft Research Cambridge, where I worked on manifold optimization with [James Hensman](https://scholar.google.com/citations?user=l8dX3ssAAAAJ&hl=en).
 
 Previously, I obtained my MPhil from HKUST, advised by [Prof. Tong Zhang](https://tongzhang-ml.org) and [Prof. Quanming Yao](https://lars-group.github.io). Before that, I obtained my bachelor's degree in computer science from Tsinghua University, where I worked with [Prof. Jie Tang](https://keg.cs.tsinghua.edu.cn/jietang).
