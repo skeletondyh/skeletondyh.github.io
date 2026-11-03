@@ -23,7 +23,7 @@ I'm broadly interested in the foundations of deep learning and its applications 
 
 My current research focuses on: 
 1. Developing architectures and generative models that incorporate symmetries in data;
-2. Improving the training dynamics of neural networks by exploiting symmetries in weight space.
+2. Improving the training dynamics of LLMs by exploiting symmetries in weight space.
 
 During my Ph.D., I interned at Microsoft Research Cambridge, where I worked with [James Hensman](https://scholar.google.com/citations?user=l8dX3ssAAAAJ&hl=en) on manifold optimization for LLM fine-tuning. I also interned with [Prof. Sai Reddy](https://scholar.google.com/citations?user=XVKdvM8AAAAJ)'s group, where I worked on structure-based neural scoring functions for antibody–antigen binding prediction.
 
